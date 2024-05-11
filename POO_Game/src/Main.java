@@ -7,6 +7,9 @@ public class Main {
         toyo.avanzar();
         System.out.println("Velocidad Máxima: " + toyo.getdVelocidadMaxima());
 
+       //editado
+        System.out.println("editado por Lucero desde la rama feature-hu-292");
+
         Toyota toyo2 = new Toyota("ASP120");
         toyo2.setdVelocidadMaxima(300);
         System.out.println("Velocidad Máxima: " + toyo2.getdVelocidadMaxima());
